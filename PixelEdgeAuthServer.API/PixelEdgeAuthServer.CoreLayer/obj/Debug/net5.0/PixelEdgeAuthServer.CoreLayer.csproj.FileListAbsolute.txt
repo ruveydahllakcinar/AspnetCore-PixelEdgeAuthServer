@@ -1,0 +1,12 @@
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.CoreLayer\bin\Debug\net5.0\PixelEdgeAuthServer.CoreLayer.deps.json
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.CoreLayer\bin\Debug\net5.0\PixelEdgeAuthServer.CoreLayer.dll
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.CoreLayer\bin\Debug\net5.0\PixelEdgeAuthServer.CoreLayer.pdb
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.CoreLayer\obj\Debug\net5.0\PixelEdgeAuthServer.CoreLayer.csproj.AssemblyReference.cache
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.CoreLayer\obj\Debug\net5.0\PixelEdgeAuthServer.CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.CoreLayer\obj\Debug\net5.0\PixelEdgeAuthServer.CoreLayer.AssemblyInfoInputs.cache
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.CoreLayer\obj\Debug\net5.0\PixelEdgeAuthServer.CoreLayer.AssemblyInfo.cs
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.CoreLayer\obj\Debug\net5.0\PixelEdgeAuthServer.CoreLayer.csproj.CoreCompileInputs.cache
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.CoreLayer\obj\Debug\net5.0\PixelEdgeAuthServer.CoreLayer.dll
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.CoreLayer\obj\Debug\net5.0\refint\PixelEdgeAuthServer.CoreLayer.dll
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.CoreLayer\obj\Debug\net5.0\PixelEdgeAuthServer.CoreLayer.pdb
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.CoreLayer\obj\Debug\net5.0\ref\PixelEdgeAuthServer.CoreLayer.dll

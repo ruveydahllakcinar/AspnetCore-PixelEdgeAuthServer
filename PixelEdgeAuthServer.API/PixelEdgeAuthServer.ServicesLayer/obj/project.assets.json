@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "PixelEdgeAuthServer.CoreLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/PixelEdgeAuthServer.CoreLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PixelEdgeAuthServer.CoreLayer.dll": {}
+        }
+      },
+      "PixelEdgeAuthServer.DataLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "PixelEdgeAuthServer.CoreLayer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PixelEdgeAuthServer.DataLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PixelEdgeAuthServer.DataLayer.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "PixelEdgeAuthServer.CoreLayer/1.0.0": {
+      "type": "project",
+      "path": "../PixelEdgeAuthServer.CoreLayer/PixelEdgeAuthServer.CoreLayer.csproj",
+      "msbuildProject": "../PixelEdgeAuthServer.CoreLayer/PixelEdgeAuthServer.CoreLayer.csproj"
+    },
+    "PixelEdgeAuthServer.DataLayer/1.0.0": {
+      "type": "project",
+      "path": "../PixelEdgeAuthServer.DataLayer/PixelEdgeAuthServer.DataLayer.csproj",
+      "msbuildProject": "../PixelEdgeAuthServer.DataLayer/PixelEdgeAuthServer.DataLayer.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "PixelEdgeAuthServer.DataLayer >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\rhakc\\.nuget\\packages\\": {},
@@ -39,7 +76,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\rhakc\\source\\repos\\PixelEdgeAuthServer.API\\PixelEdgeAuthServer.API\\PixelEdgeAuthServer.DataLayer\\PixelEdgeAuthServer.DataLayer.csproj": {
+              "projectPath": "C:\\Users\\rhakc\\source\\repos\\PixelEdgeAuthServer.API\\PixelEdgeAuthServer.API\\PixelEdgeAuthServer.DataLayer\\PixelEdgeAuthServer.DataLayer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

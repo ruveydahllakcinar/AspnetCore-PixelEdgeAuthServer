@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "MNsfokV6RjC0geEN7IfwTLDJYlgr0TZdYthzJJKY5407VHHs1nCjqpUZJMdhVP0k8yN6TPJm4O7RwoBtORY6OQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rhakc\\source\\repos\\PixelEdgeAuthServer.API\\PixelEdgeAuthServer.API\\PixelEdgeApp.API\\PixelEdgeApp.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rhakc\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\rhakc\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\rhakc\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\rhakc\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\rhakc\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\rhakc\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeSharedLibrary\bin\Debug\net5.0\PixelEdgeSharedLibrary.deps.json
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeSharedLibrary\bin\Debug\net5.0\PixelEdgeSharedLibrary.dll
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeSharedLibrary\bin\Debug\net5.0\PixelEdgeSharedLibrary.pdb
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeSharedLibrary\obj\Debug\net5.0\PixelEdgeSharedLibrary.csproj.AssemblyReference.cache
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeSharedLibrary\obj\Debug\net5.0\PixelEdgeSharedLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeSharedLibrary\obj\Debug\net5.0\PixelEdgeSharedLibrary.AssemblyInfoInputs.cache
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeSharedLibrary\obj\Debug\net5.0\PixelEdgeSharedLibrary.AssemblyInfo.cs
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeSharedLibrary\obj\Debug\net5.0\PixelEdgeSharedLibrary.csproj.CoreCompileInputs.cache
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeSharedLibrary\obj\Debug\net5.0\PixelEdgeSharedLibrary.dll
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeSharedLibrary\obj\Debug\net5.0\refint\PixelEdgeSharedLibrary.dll
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeSharedLibrary\obj\Debug\net5.0\PixelEdgeSharedLibrary.pdb
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeSharedLibrary\obj\Debug\net5.0\ref\PixelEdgeSharedLibrary.dll

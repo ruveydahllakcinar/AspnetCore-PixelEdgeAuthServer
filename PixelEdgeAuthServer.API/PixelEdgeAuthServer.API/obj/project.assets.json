@@ -91,6 +91,55 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "PixelEdgeAuthServer.CoreLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/PixelEdgeAuthServer.CoreLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PixelEdgeAuthServer.CoreLayer.dll": {}
+        }
+      },
+      "PixelEdgeAuthServer.DataLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "PixelEdgeAuthServer.CoreLayer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PixelEdgeAuthServer.DataLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PixelEdgeAuthServer.DataLayer.dll": {}
+        }
+      },
+      "PixelEdgeAuthServer.ServicesLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "PixelEdgeAuthServer.DataLayer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PixelEdgeAuthServer.ServicesLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PixelEdgeAuthServer.ServicesLayer.dll": {}
+        }
+      },
+      "PixelEdgeSharedLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/PixelEdgeSharedLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PixelEdgeSharedLibrary.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -201,10 +250,32 @@
         "swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "PixelEdgeAuthServer.CoreLayer/1.0.0": {
+      "type": "project",
+      "path": "../PixelEdgeAuthServer.CoreLayer/PixelEdgeAuthServer.CoreLayer.csproj",
+      "msbuildProject": "../PixelEdgeAuthServer.CoreLayer/PixelEdgeAuthServer.CoreLayer.csproj"
+    },
+    "PixelEdgeAuthServer.DataLayer/1.0.0": {
+      "type": "project",
+      "path": "../PixelEdgeAuthServer.DataLayer/PixelEdgeAuthServer.DataLayer.csproj",
+      "msbuildProject": "../PixelEdgeAuthServer.DataLayer/PixelEdgeAuthServer.DataLayer.csproj"
+    },
+    "PixelEdgeAuthServer.ServicesLayer/1.0.0": {
+      "type": "project",
+      "path": "../PixelEdgeAuthServer.ServicesLayer/PixelEdgeAuthServer.ServicesLayer.csproj",
+      "msbuildProject": "../PixelEdgeAuthServer.ServicesLayer/PixelEdgeAuthServer.ServicesLayer.csproj"
+    },
+    "PixelEdgeSharedLibrary/1.0.0": {
+      "type": "project",
+      "path": "../PixelEdgeSharedLibrary/PixelEdgeSharedLibrary.csproj",
+      "msbuildProject": "../PixelEdgeSharedLibrary/PixelEdgeSharedLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "PixelEdgeAuthServer.ServicesLayer >= 1.0.0",
+      "PixelEdgeSharedLibrary >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -241,7 +312,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\rhakc\\source\\repos\\PixelEdgeAuthServer.API\\PixelEdgeAuthServer.API\\PixelEdgeAuthServer.ServicesLayer\\PixelEdgeAuthServer.ServicesLayer.csproj": {
+              "projectPath": "C:\\Users\\rhakc\\source\\repos\\PixelEdgeAuthServer.API\\PixelEdgeAuthServer.API\\PixelEdgeAuthServer.ServicesLayer\\PixelEdgeAuthServer.ServicesLayer.csproj"
+            },
+            "C:\\Users\\rhakc\\source\\repos\\PixelEdgeAuthServer.API\\PixelEdgeAuthServer.API\\PixelEdgeSharedLibrary\\PixelEdgeSharedLibrary.csproj": {
+              "projectPath": "C:\\Users\\rhakc\\source\\repos\\PixelEdgeAuthServer.API\\PixelEdgeAuthServer.API\\PixelEdgeSharedLibrary\\PixelEdgeSharedLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

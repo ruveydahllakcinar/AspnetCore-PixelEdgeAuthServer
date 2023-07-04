@@ -1,0 +1,15 @@
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.DataLayer\bin\Debug\net5.0\PixelEdgeAuthServer.DataLayer.deps.json
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.DataLayer\bin\Debug\net5.0\PixelEdgeAuthServer.DataLayer.dll
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.DataLayer\bin\Debug\net5.0\PixelEdgeAuthServer.DataLayer.pdb
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.DataLayer\obj\Debug\net5.0\PixelEdgeAuthServer.DataLayer.csproj.AssemblyReference.cache
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.DataLayer\obj\Debug\net5.0\PixelEdgeAuthServer.DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.DataLayer\obj\Debug\net5.0\PixelEdgeAuthServer.DataLayer.AssemblyInfoInputs.cache
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.DataLayer\obj\Debug\net5.0\PixelEdgeAuthServer.DataLayer.AssemblyInfo.cs
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.DataLayer\obj\Debug\net5.0\PixelEdgeAuthServer.DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.DataLayer\obj\Debug\net5.0\PixelEdgeAuthServer.DataLayer.dll
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.DataLayer\obj\Debug\net5.0\refint\PixelEdgeAuthServer.DataLayer.dll
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.DataLayer\obj\Debug\net5.0\PixelEdgeAuthServer.DataLayer.pdb
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.DataLayer\obj\Debug\net5.0\ref\PixelEdgeAuthServer.DataLayer.dll
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.DataLayer\bin\Debug\net5.0\PixelEdgeAuthServer.CoreLayer.dll
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.DataLayer\bin\Debug\net5.0\PixelEdgeAuthServer.CoreLayer.pdb
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.DataLayer\obj\Debug\net5.0\PixelEdgeAuthServer.DataLayer.csproj.CopyComplete

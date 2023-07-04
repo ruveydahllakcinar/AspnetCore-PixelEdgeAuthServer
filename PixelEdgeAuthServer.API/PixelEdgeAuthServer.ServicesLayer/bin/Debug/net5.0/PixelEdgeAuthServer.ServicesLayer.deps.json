@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "PixelEdgeAuthServer.ServicesLayer/1.0.0": {
+        "dependencies": {
+          "PixelEdgeAuthServer.DataLayer": "1.0.0"
+        },
+        "runtime": {
+          "PixelEdgeAuthServer.ServicesLayer.dll": {}
+        }
+      },
+      "PixelEdgeAuthServer.CoreLayer/1.0.0": {
+        "runtime": {
+          "PixelEdgeAuthServer.CoreLayer.dll": {}
+        }
+      },
+      "PixelEdgeAuthServer.DataLayer/1.0.0": {
+        "dependencies": {
+          "PixelEdgeAuthServer.CoreLayer": "1.0.0"
+        },
+        "runtime": {
+          "PixelEdgeAuthServer.DataLayer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PixelEdgeAuthServer.ServicesLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PixelEdgeAuthServer.CoreLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PixelEdgeAuthServer.DataLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
