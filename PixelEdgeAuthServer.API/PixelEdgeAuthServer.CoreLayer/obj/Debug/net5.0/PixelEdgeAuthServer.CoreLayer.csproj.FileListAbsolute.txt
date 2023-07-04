@@ -10,3 +10,6 @@ C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\Pixe
 C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.CoreLayer\obj\Debug\net5.0\refint\PixelEdgeAuthServer.CoreLayer.dll
 C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.CoreLayer\obj\Debug\net5.0\PixelEdgeAuthServer.CoreLayer.pdb
 C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.CoreLayer\obj\Debug\net5.0\ref\PixelEdgeAuthServer.CoreLayer.dll
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.CoreLayer\bin\Debug\net5.0\PixelEdgeSharedLibrary.dll
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.CoreLayer\bin\Debug\net5.0\PixelEdgeSharedLibrary.pdb
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.CoreLayer\obj\Debug\net5.0\PixelEdgeAuthServer.CoreLayer.csproj.CopyComplete

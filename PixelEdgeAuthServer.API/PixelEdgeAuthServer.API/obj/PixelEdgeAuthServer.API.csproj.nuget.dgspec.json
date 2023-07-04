@@ -109,7 +109,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\rhakc\\source\\repos\\PixelEdgeAuthServer.API\\PixelEdgeAuthServer.API\\PixelEdgeSharedLibrary\\PixelEdgeSharedLibrary.csproj": {
+                "projectPath": "C:\\Users\\rhakc\\source\\repos\\PixelEdgeAuthServer.API\\PixelEdgeAuthServer.API\\PixelEdgeSharedLibrary\\PixelEdgeSharedLibrary.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -121,6 +125,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
