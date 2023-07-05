@@ -13,3 +13,8 @@ C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\Pixe
 C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.DataLayer\bin\Debug\net5.0\PixelEdgeAuthServer.CoreLayer.dll
 C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.DataLayer\bin\Debug\net5.0\PixelEdgeAuthServer.CoreLayer.pdb
 C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.DataLayer\obj\Debug\net5.0\PixelEdgeAuthServer.DataLayer.csproj.CopyComplete
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.DataLayer\bin\Debug\net5.0\PixelEdgeAuthServer.DataLayer.runtimeconfig.json
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.DataLayer\bin\Debug\net5.0\PixelEdgeAuthServer.DataLayer.runtimeconfig.dev.json
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.DataLayer\bin\Debug\net5.0\PixelEdgeSharedLibrary.dll
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.DataLayer\bin\Debug\net5.0\PixelEdgeSharedLibrary.pdb
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeAuthServer.DataLayer\obj\Debug\net5.0\PixelEdgeAuthServer.DataLayer.genruntimeconfig.cache

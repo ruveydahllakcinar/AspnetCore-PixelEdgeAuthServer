@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\PixelEdgeApp.API\PixelEdgeApp.API.csproj" />
     <ProjectReference Include="..\PixelEdgeSharedLibrary\PixelEdgeSharedLibrary.csproj" />
   </ItemGroup>
 

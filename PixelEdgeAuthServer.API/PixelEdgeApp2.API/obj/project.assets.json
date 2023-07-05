@@ -92,6 +92,23 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "PixelEdgeApp.API/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "PixelEdgeSharedLibrary": "1.0.0",
+          "Swashbuckle.AspNetCore": "5.6.3"
+        },
+        "compile": {
+          "bin/placeholder/PixelEdgeApp.API.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PixelEdgeApp.API.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "PixelEdgeSharedLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -215,6 +232,11 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
+    "PixelEdgeApp.API/1.0.0": {
+      "type": "project",
+      "path": "../PixelEdgeApp.API/PixelEdgeApp.API.csproj",
+      "msbuildProject": "../PixelEdgeApp.API/PixelEdgeApp.API.csproj"
+    },
     "PixelEdgeSharedLibrary/1.0.0": {
       "type": "project",
       "path": "../PixelEdgeSharedLibrary/PixelEdgeSharedLibrary.csproj",
@@ -223,6 +245,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "PixelEdgeApp.API >= 1.0.0",
       "PixelEdgeSharedLibrary >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
@@ -261,6 +284,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Users\\rhakc\\source\\repos\\PixelEdgeAuthServer.API\\PixelEdgeAuthServer.API\\PixelEdgeApp.API\\PixelEdgeApp.API.csproj": {
+              "projectPath": "C:\\Users\\rhakc\\source\\repos\\PixelEdgeAuthServer.API\\PixelEdgeAuthServer.API\\PixelEdgeApp.API\\PixelEdgeApp.API.csproj"
+            },
             "C:\\Users\\rhakc\\source\\repos\\PixelEdgeAuthServer.API\\PixelEdgeAuthServer.API\\PixelEdgeSharedLibrary\\PixelEdgeSharedLibrary.csproj": {
               "projectPath": "C:\\Users\\rhakc\\source\\repos\\PixelEdgeAuthServer.API\\PixelEdgeAuthServer.API\\PixelEdgeSharedLibrary\\PixelEdgeSharedLibrary.csproj"
             }

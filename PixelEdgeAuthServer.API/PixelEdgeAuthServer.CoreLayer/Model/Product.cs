@@ -8,7 +8,9 @@ namespace PixelEdgeAuthServer.CoreLayer.Model
 {
     public class Product
     {
-        public int ProductId { get; set; }
+        public int ProductId { get; set; }  //PK ataması yaaparken 3 yol bulunur. Bunlardan ilki Id'nin züerine [Key] yazmak
+        //İkinci yol ise yukarıda gördüğünüz gibi sadece Id yada productId yazabilrisiniz.
+        //Üçüncü yol ise Data katmanında oluşturduğumuz config ayarlarını yazdığımız yerde tanımlama yapmak.
         public string Name { get; set; }
         public Decimal Price { get; set; }
         public int Stock { get; set; }
