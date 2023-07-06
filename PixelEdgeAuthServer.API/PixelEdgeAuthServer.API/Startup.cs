@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using PixelEdgeAuthServer.CoreLayer.Configurations;
 using PixelEdgeSharedLibrary.Configurations;
 using System;
 using System.Collections.Generic;
@@ -28,6 +29,7 @@ namespace PixelEdgeAuthServer.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.Configure<CustomTokenOption>(Configuration.GetSection("TokenOption"));
+            services.Configure<List<Client>>(Configuration.GetSection("Clients"));
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
