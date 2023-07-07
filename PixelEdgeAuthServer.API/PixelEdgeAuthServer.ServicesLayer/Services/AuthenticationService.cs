@@ -19,7 +19,7 @@ namespace PixelEdgeAuthServer.ServicesLayer.Services
 {
     public class AuthenticationService : IAuthenticationService
     {
-        private readonly List<Client> _client;
+        private readonly List<Client> _clients;
         private readonly ITokenService _tokenService;
         private readonly UserManager<AppUser> _userManager;
         private readonly IUnitOfWork _unitOfWork;
@@ -27,14 +27,14 @@ namespace PixelEdgeAuthServer.ServicesLayer.Services
 
         public AuthenticationService(IOptions<List<Client>> optionsClient, ITokenService tokenService, UserManager<AppUser> userManager, IUnitOfWork unitOfWork, IGenericRepository<UserRefreshToken> userRefreshTokenService)
         {
-            _client = optionsClient.Value;
+            _clients = optionsClient.Value;
             _tokenService = tokenService;
             _userManager = userManager;
             _unitOfWork = unitOfWork;
             _userRefreshTokenService = userRefreshTokenService;
         }
 
-        public async Task<Response<TokenDto>> CreateToken(LoginDto loginDto)
+        public async Task<Response<TokenDto>> CreateTokenAsync(LoginDto loginDto)
         {
             if (loginDto==null) throw new ArgumentNullException(nameof(loginDto));
             var user = await _userManager.FindByEmailAsync(loginDto.Email);
@@ -63,7 +63,7 @@ namespace PixelEdgeAuthServer.ServicesLayer.Services
 
         public Response<ClientTokenDto> CreateTokenByClient(ClientLoginDto clientLoginDto)
         {
-            var client = _client.SingleOrDefault(x => x.ClientId == clientLoginDto.ClientId && x.Secret == clientLoginDto.ClientSecret);
+            var client = _clients.SingleOrDefault(x => x.ClientId == clientLoginDto.ClientId && x.Secret == clientLoginDto.ClientSecret);
             if (client == null)
             {
                 return Response<ClientTokenDto>.Fail("Client Id or Client Secret not found", 404, true);

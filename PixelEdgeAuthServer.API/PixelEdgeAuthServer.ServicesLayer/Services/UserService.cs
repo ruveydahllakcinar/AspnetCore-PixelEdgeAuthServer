@@ -34,9 +34,9 @@ namespace PixelEdgeAuthServer.ServicesLayer.Services
             return Response<AppUserDto>.Success(ObjectMapper.Mapper.Map<AppUserDto>(user), 200);
         }
 
-        public async Task<Response<AppUserDto>> GetUserByNameAsync(string username)
+        public async Task<Response<AppUserDto>> GetUserByNameAsync(string Username)
         {
-           var user =await _userManager.FindByNameAsync(username); 
+           var user =await _userManager.FindByNameAsync(Username); 
             if (user == null)
             {
                 return Response<AppUserDto>.Fail("Username not found",404,true);

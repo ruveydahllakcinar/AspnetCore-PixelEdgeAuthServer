@@ -31,3 +31,5 @@ C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\Pixe
 C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeApp.API\obj\Debug\net5.0\PixelEdgeApp.API.pdb
 C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeApp.API\obj\Debug\net5.0\PixelEdgeApp.API.genruntimeconfig.cache
 C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeApp.API\obj\Debug\net5.0\ref\PixelEdgeApp.API.dll
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeApp.API\bin\Debug\net5.0\PixelEdgeSharedLibrary.dll
+C:\Users\rhakc\source\repos\PixelEdgeAuthServer.API\PixelEdgeAuthServer.API\PixelEdgeApp.API\bin\Debug\net5.0\PixelEdgeSharedLibrary.pdb
