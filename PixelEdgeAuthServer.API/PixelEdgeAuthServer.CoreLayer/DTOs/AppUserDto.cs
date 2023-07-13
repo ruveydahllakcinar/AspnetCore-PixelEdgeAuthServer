@@ -8,7 +8,7 @@ namespace PixelEdgeAuthServer.CoreLayer.DTOs
 {
     public class AppUserDto
     {
-        public int Id { get; set; }
+        public string Id { get; set; }
         public string Username { get; set; }
         public string Email { get; set; }
         public string City { get; set; }

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PixelEdgeAuthServer.ServicesLayer.Services
+namespace PixelEdgeSharedLibrary.Services
 {
     public static class SignService
     {

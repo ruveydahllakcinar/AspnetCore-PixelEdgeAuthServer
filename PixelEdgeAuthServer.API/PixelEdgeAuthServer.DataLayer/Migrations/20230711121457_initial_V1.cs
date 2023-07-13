@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace PixelEdgeAuthServer.DataLayer.Migrations
 {
-    public partial class initial : Migration
+    public partial class initial_V1 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

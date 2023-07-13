@@ -8,6 +8,7 @@ namespace PixelEdgeAuthServer.CoreLayer.UnitOfWork
 {
     public interface IUnitOfWork
     {
+
         Task CommitAsync();
 
         void Commit();

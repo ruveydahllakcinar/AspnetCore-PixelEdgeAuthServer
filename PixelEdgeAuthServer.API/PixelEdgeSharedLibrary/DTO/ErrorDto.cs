@@ -8,24 +8,21 @@ namespace PixelEdgeSharedLibrary.DTO
 {
     public class ErrorDto
     {
-        public List<String> Errors { get; private set; }
+        public List<String> Errors { get; private set; } = new List<String>();
         public bool IsShow { get; private set; }
 
-        public ErrorDto() 
-        { 
-            Errors = new List<String>();
-        }
+     
 
-        public ErrorDto(string error,  bool isShow)
+        public ErrorDto(string error, bool isShow)
         {
             Errors.Add(error);
-            isShow = true;
+            IsShow = isShow;
         }
 
 
-        public  ErrorDto(List<String> errors, bool isShow) 
+        public ErrorDto(List<String> errors, bool isShow)
         {
-            Errors =errors;
+            Errors = errors;
             IsShow = isShow;
         }
     }

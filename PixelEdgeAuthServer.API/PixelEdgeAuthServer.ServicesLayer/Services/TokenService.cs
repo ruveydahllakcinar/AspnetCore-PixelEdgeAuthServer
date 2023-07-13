@@ -6,6 +6,7 @@ using PixelEdgeAuthServer.CoreLayer.DTOs;
 using PixelEdgeAuthServer.CoreLayer.Model;
 using PixelEdgeAuthServer.CoreLayer.Services;
 using PixelEdgeSharedLibrary.Configurations;
+using PixelEdgeSharedLibrary.Services;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
@@ -49,15 +50,17 @@ namespace PixelEdgeAuthServer.ServicesLayer.Services
             return userlist;
         }
 
-        private IEnumerable<Claim> GetClaims(Client client) //Üyelik sistemi istemediğimde claimleri bu metodlara oluşturuyotum.
+        private IEnumerable<Claim> GetClaimsByClient(Client client)
         {
             var claims = new List<Claim>();
             claims.AddRange(client.Audiences.Select(x => new Claim(JwtRegisteredClaimNames.Aud, x)));
+
             new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString());
             new Claim(JwtRegisteredClaimNames.Sub, client.ClientId.ToString());
-            return claims;
 
+            return claims;
         }
+
 
         public TokenDto CreateToken(AppUser appUser)
         {
@@ -81,7 +84,7 @@ namespace PixelEdgeAuthServer.ServicesLayer.Services
                 AccessToken = token,
                 RefreshToken = CreateRefreshToken(),
                 AccessTokenExpressionDate = accessTokenExpiration,
-                RefreshTokenExpressionDate = refreshTokenExpiration
+                RefreshTokenExpirationDate = refreshTokenExpiration
 
             };
 
@@ -100,7 +103,7 @@ namespace PixelEdgeAuthServer.ServicesLayer.Services
                 issuer: _customTokenOption.Issuer, //Bu tokenin kimin yayınladığı belirtilir
                 expires: accessTokenExpiration,
                 notBefore: DateTime.Now,
-                claims: GetClaims(client),
+                claims: GetClaimsByClient(client),
                 signingCredentials: signingCredentials);
 
             var handler = new JwtSecurityTokenHandler();

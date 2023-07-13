@@ -10,8 +10,8 @@ using PixelEdgeAuthServer.DataLayer;
 namespace PixelEdgeAuthServer.DataLayer.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230707112412_initial")]
-    partial class initial
+    [Migration("20230711121457_initial_V1")]
+    partial class initial_V1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

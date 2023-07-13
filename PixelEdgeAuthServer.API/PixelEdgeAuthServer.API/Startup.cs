@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+﻿using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -19,6 +20,8 @@ using PixelEdgeAuthServer.DataLayer;
 using PixelEdgeAuthServer.DataLayer.Repositories;
 using PixelEdgeAuthServer.ServicesLayer.Services;
 using PixelEdgeSharedLibrary.Configurations;
+using PixelEdgeSharedLibrary.Extensions;
+using PixelEdgeSharedLibrary.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -86,7 +89,10 @@ namespace PixelEdgeAuthServer.API
                 };
             });
 
-            services.AddControllers();
+            services.AddControllers().AddFluentValidation(options =>
+            {
+                options.RegisterValidatorsFromAssemblyContaining<Startup>();
+            });
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "PixelEdgeAuthServer.API", Version = "v1" });
@@ -101,6 +107,8 @@ namespace PixelEdgeAuthServer.API
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "PixelEdgeAuthServer.API v1"));
             }
+   
+            app.UseCustomException();
 
             app.UseHttpsRedirection();
 

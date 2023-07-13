@@ -68,24 +68,22 @@ namespace PixelEdgeAuthServer.ServicesLayer.Services
             throw new NotImplementedException();
         }
 
-        public async Task<Response<NoDataDto>> Update(TDto entity, int id)
+        public async Task<Response<NoDataDto>> UpdateAsync(TDto entity, int id)
         {
             var isExistEntity = await _genericRepository.GetByIdAsync(id);
+
             if (isExistEntity == null)
             {
                 return Response<NoDataDto>.Fail("Id not found", 404, true);
             }
 
             var updateEntity = ObjectMapper.Mapper.Map<TEntity>(entity);
-            _genericRepository.Update(updateEntity); 
-            await _unitOfWork.CommitAsync();
-            //204 Durum kodu: No content => Response body'sinde hiçbir data olmayacak.
-            return Response<NoDataDto>.Success(204);
-        }
 
-        public Task<Response<NoDataDto>> Update(TDto entity)
-        {
-            throw new NotImplementedException();
+            _genericRepository.Update(updateEntity);
+
+            await _unitOfWork.CommitAsync();
+            //204 durum kodu =>  No Content  => Response body'sinde hiç bir data  olmayacak.
+            return Response<NoDataDto>.Success(204);
         }
 
         public async Task<Response<IEnumerable<TDto>>> Where(Expression<Func<TEntity, bool>> predicate)

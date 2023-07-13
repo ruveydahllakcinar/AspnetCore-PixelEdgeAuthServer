@@ -16,7 +16,7 @@ namespace PixelEdgeAuthServer.CoreLayer.Services
         Task<Response<IEnumerable<TDto>>> Where(Expression<Func<TEntity, bool>> predicate);
         Task<Response<TDto>>AddAsync(TDto entity);
 
-        Task<Response<NoDataDto>> Remove(TDto entity);
-        Task<Response<NoDataDto>> Update(TDto entity);
+        Task<Response<NoDataDto>> Remove(int id);
+        Task<Response<NoDataDto>> UpdateAsync(TDto entity,int id);
     }
 }

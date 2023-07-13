@@ -7,6 +7,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using PixelEdgeSharedLibrary.Configurations;
+using PixelEdgeSharedLibrary.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,6 +28,10 @@ namespace PixelEdgeApp2.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.Configure<CustomTokenOption>(Configuration.GetSection("TokenOption"));
+            var tokenOptions = Configuration.GetSection("TokenOption").Get<CustomTokenOption>();
+
+            services.AddCustomTokenAuth(tokenOptions);
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
@@ -33,6 +39,7 @@ namespace PixelEdgeApp2.API
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "PixelEdgeApp2.API", Version = "v1" });
             });
         }
+
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -47,6 +54,8 @@ namespace PixelEdgeApp2.API
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseAuthentication();
 
             app.UseAuthorization();
 

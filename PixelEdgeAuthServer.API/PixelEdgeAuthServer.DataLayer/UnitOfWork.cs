@@ -24,7 +24,7 @@ namespace PixelEdgeAuthServer.DataLayer
 
         public async Task CommitAsync()
         {
-           await _context.SaveChangesAsync();
+            await _context.SaveChangesAsync();
         }
     }
 }
